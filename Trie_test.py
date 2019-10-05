@@ -1,3 +1,7 @@
+"""
+Trie_test.py
+Example file for Trie
+"""
 from Trie import Trie
 
 word_list = ["mello","hackathon", "hack", "hacker"]
