@@ -10,7 +10,15 @@ class TrieNode:
         return self.char
 
 class Trie:
+    """
+    Trie data structure for storing strings. Provides fast lookups
+    Has the following interfaces:
 
+    `add_word` : to add a word to the words
+    `add_word_list` : to add a list of words
+    `find_prefix` : to look up for a word
+        
+    """
     def __init__(self):
         self.root = TrieNode('')
 

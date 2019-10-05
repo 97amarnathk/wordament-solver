@@ -1,3 +1,8 @@
+"""
+solver.py
+The solver for wordament. Uses Trie
+"""
+
 from Trie import Trie
 import itertools
 
@@ -70,7 +75,6 @@ def dfs_recursive(row, col, digram, combination, vis, combination_set, trie):
             #unmark
             combination = combination[:-1]
             vis[next_row][next_col] = False
-            
 
 def begin_dfs(digram, trie):
     """
